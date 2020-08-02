@@ -1,0 +1,28 @@
+{
+  "name": "roti-kapda-makaan",
+  "version": "1.0.0",
+  "description": "A JS lib to generate unique combinations of hinglish words.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iostreamer-X/roti-kapda-makaan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iostreamer-X/roti-kapda-makaan/issues"
+  },
+  "homepage": "https://github.com/iostreamer-X/roti-kapda-makaan#readme",
+  "dependencies": {
+    "random-number-csprng": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/random-number-csprng": "^1.0.0"
+  }
+}
