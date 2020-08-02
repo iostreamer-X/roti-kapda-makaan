@@ -1,6 +1,6 @@
 {
   "name": "roti-kapda-makaan",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A JS lib to generate unique combinations of hinglish words.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
