@@ -1,5 +1,5 @@
-# roti-kapda-makaan
-A JS lib to generate unique combinations of hinglish words. 
+# roti-kapda-makaan 
+A JS lib to generate unique combinations of hinglish words. 🌯 🥻 🏠 
 
 # Why?
 Imagine interacting with a company's help support and then receiving this robotic reference id: 
@@ -10,9 +10,9 @@ Now imagine doing the same but getting this reference id:
 ```js
 '23-mast-chai-cool-coffee'
 ```
-The latter is enough to slightly amuse you, and much much easier to tell the company representaive on call.
+The latter is enough to slightly amuse you, and much much easier to tell the company representative on call.
 
-And that's the whole idea behind it, share ids which humans understand. It's easy to quote and might put a smile on their face as well.
+And that's the whole idea behind it, share ids which humans understand. It's easy to quote and might put a smile on their faces as well.
 
 # Installation
 ```
@@ -29,7 +29,7 @@ async function getHinglishId() {
 ```
 
 # How does it work?
-I scoured internet to get a big enough list of hinglish words, and then separated them based on the word being a noun or an adjective. There were some other filters involved as well, for example frequency of the words used in day to day life and length of the words.
+I searched the internet to get a big enough list of hinglish words, and then separated them based on the word being a noun or an adjective. There were some other filters involved as well, for example frequency of the words used in day to day life and length of the words.
 
 Once this set was prepared, I handpicked 64 adjectives and 128 nouns. Now, why 64 and 128 exactly?
 
