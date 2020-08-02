@@ -15,15 +15,29 @@ The latter is enough to slightly amuse you, and much much easier to tell the com
 And that's the whole idea behind it, share ids which humans understand. It's easy to quote and might put a smile on their faces as well.
 
 # Installation
+### Node
 ```
 npm install roti-kapda-makaan
 ```
+### Web
+```
+<script src="https://cdn.jsdelivr.net/npm/roti-kapda-makaan@1.0.2/dist/roti-kapda-makaan.js"></script>
+```
+
 # Usage
+### Node
 ```ts
 import { generate } from 'roti-kapda-makaan'
 
 async function getHinglishId() {
     const id = await generate();
+    return id;
+}
+```
+### Web
+```js
+async function getHinglishId() {
+    const id = await rotiKapdaMakaan.generate();
     return id;
 }
 ```
