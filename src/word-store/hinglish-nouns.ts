@@ -101,7 +101,7 @@ export const hinglishNouns = [
   'movie',
   'heera',
   'cross',
-  'moti',
+  'heera',
   'month',
   'mafia',
   'video',
