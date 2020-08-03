@@ -1,5 +1,6 @@
-# roti-kapda-makaan 
-A JS lib to generate unique combinations of hinglish words. 🌯 🥻 🏠 
+# A JS lib to generate unique combinations of hinglish words. 🌯 🥻 🏠
+Website: [https://roti-kapda-makaan.dev/](https://roti-kapda-makaan.dev/)
+![](https://roti-kapda-makaan.dev/img/rkm-logo.png)
 
 # Why?
 Imagine interacting with a company's help support and then receiving this robotic reference id: 
