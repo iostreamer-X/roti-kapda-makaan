@@ -53,18 +53,18 @@ Each id is combination of words, prefixed by a number. Something like:
 number_prefix + random_adjective + random_noun + random_adjective + random_noun
 ```
 
-The `number_prefix` can be from range 1-32, i.e. 2^`5`(32) different values of `number_prefix` are possible. In simple words, `number_prefix` represents 5 bits of information.
+The `number_prefix` can be from range 1-64, i.e. 2^`6`(64) different values of `number_prefix` are possible. In simple words, `number_prefix` represents 6 bits of information.
 
-Coming to `random_adjective`, we only have 64 or 2^`6` adjectives. So it represents 6 bits of information.
+Coming to `random_adjective`, we only have 64 or 2^`6` adjectives. So it also represents 6 bits of information.
 
-And together they represent 11 bits, and 2^11 being 2048, that's the total number of unique combinations we can have:
+And together they represent 12 bits, and 2^12 being 4096, that's the total number of unique combinations we can have:
 ```
-number_prefix(5 bits) + random_adjective(6 bits) = 11 bits of information
+number_prefix(6 bits) + random_adjective(6 bits) = 12 bits of information
 ```
 
 And hence:
 ```
-number_prefix(5 bits) + random_adjective(6 bits) + random_noun(7 bits) + random_adjective(6 bits) + random_noun(7 bits) = 32 bits of information
+number_prefix(6 bits) + random_adjective(6 bits) + random_noun(7 bits) + random_adjective(6 bits) + random_noun(7 bits) = 32 bits of information
 ```
 
 Which means there are 2^32(4,29,49,67,296) unique combinations of numbers, nouns and adjectives our function can generate!

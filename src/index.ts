@@ -4,7 +4,7 @@ import { getRandomNoun } from "./word-store/hinglish-nouns";
 
 export async function generate() {
     const [randomNumberPrefix, firstRandomAdjective, firstRandomNoun, secondRandomAdjective, secondRandomNoun] = await Promise.all([
-        getRandomNumber({ min: 1, max: 32 }),
+        getRandomNumber({ min: 1, max: 64 }),
         getRandomAdjective(),
         getRandomNoun(),
         getRandomAdjective(),
